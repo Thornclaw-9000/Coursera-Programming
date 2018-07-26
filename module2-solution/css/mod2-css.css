@@ -7,16 +7,15 @@
 
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .container{
   position: relative;
   border: 2px solid black;
   background-color: #A0A0A0;
-  overflow:auto;
-  width: 90%;
-  height: 150px;
-  margin:15px 15px 15px 15px;
+  overflow: auto;  
+  margin: 15px 15px 15px 15px;
   font-family: Helvetica;
   color: black; 
 }
@@ -25,15 +24,13 @@ p{
   color: black;
   margin-top:auto;
   margin-bottom: auto;
-  padding:5px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 10px;
 }
 
 #chicken{
   top: 0px;
   right: 0px;
-  width: 80px;
+  width: 100px;
   height: 25px;
   border: 2px solid black;
   border-top: 0px;
@@ -41,9 +38,10 @@ p{
   margin-top: auto;
   margin-left: auto;
   font-size: 22px;
-  background-color: #FFC0CB;
   padding-left: 5px;
   padding-right: 5px;
+  text-align: center;
+  background-color: #FFC0CB;
   position: relative;
 }
 
@@ -51,7 +49,7 @@ p{
 #steak{
   top: 0px;
   right: 0px;
-  width: 80px;
+  width: 100px;
   height: 25px;
   border: 2px solid black;
   margin-top: auto;
@@ -60,8 +58,9 @@ p{
   color: black;
   border-top: 0px;
   border-right: 0px;
-  padding-left: 9px;
-  padding-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
   background-color: #FF0000;
   position: relative;
 }
@@ -69,7 +68,7 @@ p{
 #sushi{
   top: 0px;
   right: 0px;
-  width: 80px;
+  width: 100px;
   height: 25px;
   border: 2px solid black;
   border-top: 0px;
@@ -79,10 +78,13 @@ p{
   margin-right: 0px;
   font-size: 22px;
   padding-left: 5px;
-  padding-right: 0px;
+  padding-right: 5px;
+  text-align: center;
   background-color: #D2B48C;
   position: relative;
   }
+
+
 /*Simple Responsive Framework.*/
 .row {
   width: 100%;
